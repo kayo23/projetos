@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela de abas2</title>
+    <style>
+        div.abas p
+        {
+            display: none;
+        }
+        div.abas p:target
+        {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#abas 1">problemas ambientais: Muito mato, parece uma 
+        floresta do lado da rua
+    </a>
+    <a href="#abas 2">Como afeta a vida?um perigo pra comunidade</a>
+    <a href="#abas 3">Soluções:tirar um pouco do mato</a>
+    <a href="#default">limpar</a>
+
+    <div class="abas">
+        <p id="abas 1">Tem muito mais muito mato do lado das calçadas com lixo, saida de esgoto,
+            e com risco de sair alguns animais de dentro do mato. Ja houve caso de cachorro
+            sair do meio do mato e morder uma criança.
+        </p>
+        <p id="abas 2">As pessoas tem medo de andar ali a noite por que tem risco de ser assaltado.
+            As pessoas tacam lixo e acabam queimando esse lixo e queimando o mato.
+        </p>
+        <p id="abas 3">Eles deviam tirar um pouco daquele mato para as pessoas se sentirem
+            mais "seguras" e talvez não apareça animais de surpresa. Não há como solucionar
+            o problema do lixo.
+        </p>
+        <p id="default"></p>
+        
+    </div>
+
+    <style>
+        A
+          {
+            float: down;
+            padding: 0.5em 1em;
+            background: -o-linear-gradient(#FFF#EEE);
+            border-width: 1px;
+            border-style: solid;
+            border-color: #CCC #CCC #FFF;
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+          }
+    </style>
+</body>
+</html>
